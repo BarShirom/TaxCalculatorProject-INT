@@ -1,0 +1,41 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: sans-serif;
+}
+
+main {
+  width: 100%;
+  max-width: 840px;
+  margin: auto;
+  padding: 4em;
+}
+
+header, form, .output {
+  padding: 1.5em;
+}
+
+header, .output {
+  background: aliceblue;
+}
+
+form input {
+  display: block;
+  margin-top: 1em;
+  height: 40px;
+  border: 1px solid lightgray;
+  background: white;
+  padding: 0.6em 1em;
+}
+
+.output .net-salary {
+  font-size: 1.8em;
+  margin-bottom: 1em;
+}
+.output .tax {
+  font-size: 1.4em;
+}/*# sourceMappingURL=style.css.map */
